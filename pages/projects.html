@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Kahos Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Rajdhani:wght@400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/2193d055c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <canvas id="fx"></canvas>
+    <div id="progress"></div>
+
+    <header>
+        <nav id="navbar">
+            <a href="../index.html" class="logo">Kahos <span>Dev</span></a>
+            <button class="menu-btn" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <p class="eyebrow">// 02</p>
+            <h1>Personal <span>Projects</span></h1>
+            <p>Systems I built from scratch. Press play on any video to see them in action.</p>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="card project-card reveal">
+                <div class="project-vid">
+                    <iframe src="https://www.youtube.com/embed/Kv4l_b7EPx0?si=_tX8FSCUknqPJZIO" title="Basic Shop &amp; Inventory System" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta"><span class="num">01</span><span class="cat">Economy</span></div>
+                    <h3>Basic Shop &amp; Inventory System</h3>
+                    <p>Built an interactive shop and inventory system where players can collect items, purchase them with in-game currency, and equip or unequip owned items. Server-side checks validate purchases and inventory actions to help prevent unauthorized changes</p>
+                    <ul class="chips">
+                        <li>Luau</li>
+                        <li>UI Scripting</li>
+                        <li>RemoteEvents</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="card project-card reveal">
+                <div class="project-vid">
+                    <iframe src="https://www.youtube.com/embed/HM4ETRhGK2I?si=tdWEN1Qunxk_JDNZ" title="Basic NPC, Dialogue &amp; Round System" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta"><span class="num">02</span><span class="cat">Multiplayer</span></div>
+                    <h3>Basic NPC, Dialogue &amp; Round System</h3>
+                    <p>Developed an integrated multiplayer system featuring round-based gameplay, interactive NPC dialogue, and NPC behavior that changes when a round begins. NPCs follow players during active rounds, connecting the dialogue and round systems with in-game character behavior</p>
+                    <ul class="chips">
+                        <li>Luau</li>
+                        <li>NPC Behavior</li>
+                        <li>Multiplayer Round System</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="card project-card reveal">
+                <div class="project-vid">
+                    <iframe src="https://www.youtube.com/embed/PzXW3QHdaE0?si=3d3-0Bs2zLqvVIQ2" title="Basic Admin Panel for Temporary Server Events &amp; Global Messages" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta"><span class="num">03</span><span class="cat">Tools</span></div>
+                    <h3>Basic Admin Panel for Temporary Server Events &amp; Global Messages</h3>
+                    <p>Created an admin panel for running temporary server-wide events and player actions. The system includes permission checks, configurable effects, cooldowns, and automatic restoration of temporary changes</p>
+                    <ul class="chips">
+                        <li>Luau</li>
+                        <li>Server-Side Validation</li>
+                        <li>RemoteEvents</li>
+                    </ul>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Kahos Dev. All rights reserved</p>
+            <div class="social-links">
+                <a href="https://github.com/kahosdev" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://discord.com/users/1024851405195989022" target="_blank" rel="noopener" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
